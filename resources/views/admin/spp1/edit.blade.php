@@ -69,7 +69,7 @@
                     <div class="card-body">
                                 <h4 class="card-title">Edit SPP</h4>
 
-                                <form action="/updatespp/{{$data->id_kelas}}" method="POST" class="forms-sample">
+                                <form action="/updatespp/{{$data->id_spp}}" method="POST" class="forms-sample">
                                     @csrf
                                     {{-- <div class="form-group">
                                         <label for="exampleInputName1">ID SPP</label>

@@ -89,7 +89,7 @@
                                                 <td>{{ $spp->tahun }}</td>
 
                                                 <td>
-                                                    @currency($spp->nominal)
+                                                    @rupiah($spp->nominal)
                                                 </td>
                                                 <td>
 

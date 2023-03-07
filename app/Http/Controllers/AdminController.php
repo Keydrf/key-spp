@@ -45,7 +45,7 @@ class AdminController extends Controller
             'tahun' => $request->tahun,
             'nominal' => $request->nominal,
         ]);
-        return redirect()->route('kelas')->with('success', 'Data berhasil di edit');
+        return redirect()->route('spp')->with('success', 'Data berhasil di edit');
     }
     public function deletespp($id)
     {
